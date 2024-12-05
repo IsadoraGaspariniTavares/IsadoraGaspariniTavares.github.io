@@ -1,0 +1,390 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&family=Gabriela&family=Tinos&display=swap');
+
+body{
+    font-family: "Tino", "Helvetica", sans-serif;
+    background-color: #F4E7DE;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: "DM Serif Text","Helvetica", sans-serif;
+    font-size: 60px;
+    color: #E480B4;
+    box-align: center;
+    margin-left: 15px;
+}
+
+h2{
+    font-family: "Gabriela";
+    font-size: 35px;
+    color:#DD3B26;
+    margin-left: 15px;
+}
+
+h3{
+    font-family: "Gabriela";
+    color: #ECB53D;
+    font-size: 27px;
+}
+
+h4{
+    font-family: "Gabriela";
+    color:#20492F
+
+}
+
+
+#navigation{
+    background-color: #20492F;
+    order: 5px solid white;
+    color: #E480B4;
+    width: 100x;
+    height: 200x;
+    margin: 5px;
+    overflow: auto;
+}
+
+nav ul {
+    margin: 0 0 0 8px;
+    padding-left: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px 0;
+}
+
+a,
+a:link{
+    color: #DD3B26;
+
+}
+
+a:visited{
+    color: #E480B4;
+}
+
+a:hover{
+    color: #DD3B26;
+
+}
+
+a:active{
+    color: #ECB53D;
+
+}
+
+#texto{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: 0px;
+}
+
+#open{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+#open p{
+    margin-left: 30px;
+}
+
+#open img{
+    width: 170px;
+    border-radius: 50%;
+    grid-column: 2;
+    margin-left:80px;
+    margin-top: 15px;
+}
+
+#welcome{
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+#name{
+    grid-row: 2/ 3;
+    margin-left: 15px;
+}
+
+#abertura{
+    grid-row: 3 / 4;
+    font-size: 20px;
+    margin-left: 5px;
+   
+
+}
+
+#cores{
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+   
+}
+
+#primeiro{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3 ;
+}
+
+
+#box{
+    border: 5px solid #DD3B26;
+    width: 800px;
+    height: 200x;
+    border-style:groove;
+    overflow: auto;
+    font-size: 20px;
+    padding: 5px;
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    text-align: center;
+    margin: 15px;
+    margin-left:25px;
+}
+
+#wall{
+    grid-column: 2;
+    grid-row: 1 / 2;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+/*
+#perfil{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 15px;
+}
+#perfil img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+ <div id="cores">
+        <img src="images/colors.jpg">
+ </div>
+
+*/
+
+
+#photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#fridak{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    font-size: 20px;
+    line-height: 45px;
+    padding: 10px;
+    border: 5px solid #DD3B26;
+    width: 900px;
+    height: 400px;
+    margin: 5px;
+    border-style:groove;
+    overflow: auto;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+#flor{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    font-size: 20px;
+    line-height: 45px;
+    padding: 10px;
+    border: 5px solid #DD3B26;
+    width: 900px;
+    height: 360px;
+    margin: 5px;
+    border-style:groove;
+    overflow: auto;
+    padding-left: 10px;
+    padding-top: 20px;
+    grid-row: 3 / 4;
+}
+
+
+#time{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    font-size: 20px;
+    line-height: 45px;
+    padding: 10px;
+
+    border: 5px solid #DD3B26;
+    width: 900px;
+    height: 400px;
+    margin: 5px;
+    border-style:groove;
+    overflow: auto;
+    padding-left: 10px;
+    padding-top: 20px;
+    grid-row: 4/ 5;
+}
+
+#fisio{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    font-size: 20px;
+    line-height: 45px;
+    padding: 10px;
+
+    border: 5px solid #DD3B26;
+    width: 900px;
+    height: 380px;
+    margin: 5px;
+    border-style:groove;
+    overflow: auto;
+    padding-left: 10px;
+    padding-top: 20px;
+    grid-row: 5 /6;
+}
+
+
+#sobre{
+    background-color: #F4E7DE;
+    order: 5px solid white;
+    color: black;
+    width: 100x;
+    height: 200x;
+    margin: 5px;
+    overflow: auto;  
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+#education{
+    border: 5px solid #DD3B26;
+    width: 400px;
+    height: 320px;
+    margin: 5px;
+    border-style:groove;
+    overflow: auto;
+    padding-left: 10px;
+    padding-top: 0;
+    font-size: 20px;
+    grid-row: 1 /2
+}
+
+#certificates{
+    border: 5px solid #DD3B26;
+    width: 400px;
+    height: 320px;
+    margin: 5px;
+    border-style:groove;
+    overflow: auto;
+    padding-left: 10px;
+    padding-top: 0;
+    font-size: 20px;
+}
+
+#languages{
+    border: 5px solid #DD3B26;
+    width: 400px;
+    height: 320px;
+    margin: 5px;
+    border-style:groove;
+    overflow: auto;
+    padding-left: 10px;
+    padding-top: 0;
+    font-size: 18px;
+    grid-row: 2 / 3;
+
+}
+
+#hobbies{
+    border: 5px solid #DD3B26;
+    width: 400px;
+    height: 320px;
+    margin: 5px;
+    border-style:groove;
+    overflow: auto;
+    padding-left: 10px;
+    padding-top: 0;
+    font-size: 18px;
+    grid-row: 2 / 3;
+
+}
+
+
+
+#nota{
+    font-size: 18px;
+    list-style-type: "🎓";
+    line-height: 0.5in;
+}
+
+#grad{
+    font-size: 16px;
+    list-style-type: "📚";
+    line-height: 0.5in;
+
+}
+
+#contact{
+    font-size: 30px;
+    color: #20492F;
+    margin-left: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1 fr;;
+}
+
+#number{
+    font-size: 30px;
+    color: #20492F;
+    margin-left: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+#contact img{
+    grid-column: 2;
+    grid-row: 1 / 2;
+    width: 170px;
+    border-radius: 40%;
+}
+
+
+
+/*  <div id="perfil">
+                <img src="images/isadora.jpg">
+    
+            </div>
+*/
+
+/*
+<section id="wall">
+                <img src="images/wall.jpg">
+            </section>
+*/
+
+
+
+
+
+
+
+
+
